@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "allowJs": false,
+    "isolatedModules": true,
+    "strict": true,
+    "lib": ["ES2023", "DOM"]
+  }
+}
+

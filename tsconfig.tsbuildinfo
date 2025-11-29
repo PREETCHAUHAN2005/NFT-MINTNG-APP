@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/mintform.tsx","./src/components/navbar.tsx","./src/components/walletstatus.tsx","./src/hooks/usemint.ts","./src/lib/suiclient.ts","./src/lib/validation.ts","./src/lib/__tests__/validation.test.ts","./src/types/nft.ts","./vite.config.ts"],"version":"5.9.3"}

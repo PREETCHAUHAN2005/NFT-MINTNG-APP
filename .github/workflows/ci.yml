@@ -1,0 +1,45 @@
+name: verify
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run lint
+
+      - name: Run unit tests
+        run: npm test
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Install Sui CLI
+        run: |
+          curl -L https://github.com/MystenLabs/sui/releases/download/mainnet/sui-mainnet-x86_64-unknown-linux-gnu.tgz -o sui.tgz
+          tar -xzf sui.tgz
+          sudo mv sui*/sui /usr/local/bin/sui
+
+      - name: Compile Move package
+        run: sui move build
+
