@@ -1,6 +1,5 @@
 # Sui NFT Studio
-
-Production-ready NFT minting dApp that showcases a complete Sui Move smart contract alongside a modern React + TypeScript frontend. The project exposes a polished minting experience, wallet connectivity (Sui Wallet + Suiet), transaction status tracking, and CI/CD automation suitable for GitHub or cloud deployments.
+Production-ready NFT minting dApp made by me that showcases a complete Sui Move smart contract alongside a modern React + TypeScript frontend. My project exposes a polished minting experience, wallet connectivity (Sui Wallet + Suiet), transaction status tracking, and CI/CD automation suitable for GitHub or cloud deployments.
 
 ## Features
 
