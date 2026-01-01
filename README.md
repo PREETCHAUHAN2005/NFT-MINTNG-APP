@@ -3,7 +3,7 @@ Production-ready NFT minting dApp made by me that showcases a complete Sui Move 
 
 ## Features
 
-- **On-chain program** – audited-style Sui Move module with access-controlled minting, transfer, burn, and structured events.
+- **On-chain program** – I audited-style Sui Move module with access-controlled minting, transfer, burn, and structured events.
 - **Responsive frontend** – Vite + React + Tailwind UI with strict TypeScript types, Zod validation, and Zustand-free lightweight state management.
 - **Wallet integration** – `@mysten/wallet-kit` for Wallet Standard support, surfaced with Sui Wallet & Suiet as preferred connectors.
 - **Blockchain middleware** – typed helpers that build Move calls, leverage the Sui JSON-RPC client, and stream transaction status.
