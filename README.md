@@ -13,7 +13,7 @@ Production-ready NFT minting dApp made by me that showcases a complete Sui Move 
 
 | Layer      | Details                                                  |
 | ---------- | -------------------------------------------------------- |
-| Smart Cntr | Sui Move 2024.beta, `MintCap` gating, event telemetry    |
+| Smart Cntr | Sui Move 2025.beta, `MintCap` gating, event telemetry    |
 | Frontend   | React, Vite 5, Tailwind CSS, Wallet Kit               |
 | SDK        | `@mysten/sui.js` transactions + JSON-RPC client          |
 | Testing    | Vitest + Testing Library (unit tests for validation)     |
